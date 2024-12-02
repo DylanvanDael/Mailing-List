@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbyYM33LKm-x97gkB2M7WIsU9fNfQZEXoGiV6n2-88B6HkTumAsy5VUSwF--KFFjrfg9Ag/exec" />
     <title>Dylan van Dael Mailing List</title>
+    <script>
+      // Redirect to the latest version of the Google Apps Script web app
+      window.onload = function () {
+        const scriptURL = "https://script.google.com/macros/s/AKfycbyYM33LKm-x97gkB2M7WIsU9fNfQZEXoGiV6n2-88B6HkTumAsy5VUSwF--KFFjrfg9Ag/exec";
+        // Append a timestamp to prevent caching
+        const noCacheURL = scriptURL + "?t=" + new Date().getTime();
+        window.location.href = noCacheURL;
+      };
+    </script>
   </head>
   <body>
-    <p>If you are not redirected automatically, <a href="https://script.google.com/macros/s/AKfycbyYM33LKm-x97gkB2M7WIsU9fNfQZEXoGiV6n2-88B6HkTumAsy5VUSwF--KFFjrfg9Ag/exec">click here</a>.</p>
+    <p>Redirecting to the mailing list form...</p>
   </body>
 </html>
