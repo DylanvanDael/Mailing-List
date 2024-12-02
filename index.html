@@ -2,10 +2,12 @@
 <html>
   <head>
     <title>Dylan van Dael Mailing List</title>
+    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec">
     <script>
-      // Redirect to the Google Apps Script web app
+      // JavaScript fallback
       window.onload = function () {
-        window.open("https://script.google.com/macros/s/AKfycbyYM33LKm-x97gkB2M7WIsU9fNfQZEXoGiV6n2-88B6HkTumAsy5VUSwF--KFFjrfg9Ag/exec", "_blank");
+        const scriptURL = "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec";
+        window.location.href = scriptURL;
       };
     </script>
   </head>
